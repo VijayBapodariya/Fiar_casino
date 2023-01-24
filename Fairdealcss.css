@@ -1,0 +1,236 @@
+html    {background-image:url(images/bg_web.jpg);
+         background-position:center center;
+         background-repeat:no-repeat;
+         background-attachment:fixed;
+         background-size:cover;
+		
+		 } 
+		 
+.instructbox{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 top:45%;
+			 margin-left:26%;
+			 margin-bottom:10%;
+			 width:45%;
+			 position:fixed;
+			 
+			 padding:10px;
+			 }
+.instructbox1{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 visibility:hidden;
+			 height:300px;
+			 }
+			 
+			 p{color:white;
+			   font-family:verdana;
+			   font-size:18px;
+			   padding:1px;
+			   margin:10px;
+			   
+			   
+			   }
+			   
+	    span{font-size:23px;}	
+		.pic{
+			display:inline;
+			padding-left:60px;
+			width:70%;
+		    }		
+			.pic1{
+			      display:inline;
+				  width:70%;
+		         }	
+        .img2{   width:28%;
+		         padding:0px 10px;
+			     position:fixed;
+		         top:87%;
+				 left:34%;
+				 vertical-align:center;
+				 margin-top:30px;
+				
+}
+/*For laptops*/
+@media only screen and (max-width: 1500px){		
+        html{background-image:url(images/bg_web.jpg);
+             background-position:center center;
+             background-repeat:no-repeat;
+             background-attachment:fixed;
+             background-size:cover;		
+		    } 
+		 
+.instructbox{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 margin-left:26%;
+			 margin-bottom:10%;
+			 width:43%;
+			 position:fixed;
+			 padding:10px;
+			 }
+			 
+.instructbox1{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 visibility:hidden;
+			 height:290px;
+			 }
+			 
+		    p{color:white;
+			  font-family:verdana;
+			  font-size:13px;
+			  padding:1px;
+			  margin:10px;
+			 }
+			   
+	    span{font-size:17px;}
+		
+		.pic{
+			display:inline;
+			padding-left:40px;
+			width:70%;
+		    }
+			
+		.pic1{
+			  display:inline;
+              width:70%;
+		     }
+			 
+        .img2{width:28%;
+		      padding:0px 10px;
+			  position:fixed;
+		      top:87%;
+		      left:34%;
+			  vertical-align:center;
+		      margin-top:20px;
+				
+             }		 
+} 
+
+	/*For tabs and large mobiles*/
+	
+@media only screen and (max-width: 600px){
+ html {
+    background: url(images/BG_MOB.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+	
+	.instructbox{background-color: rgba(0, 0, 0, 0.5); 
+			     border:2px solid red;
+			     border-radius:14px;
+			     padding:10px;
+			     width:70%;
+			     position:fixed;
+				 top:45%;
+			     
+				 left:-13%;
+				 
+			 
+			 }
+			  .instructbox1{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 visibility:hidden;
+			 height:280px;
+			 }
+			 
+			 p{color:white;
+			   font-family:verdana;
+			   font-size:10px;
+			   padding:0px ;
+			   margin:10px;
+			   
+			   }
+			   
+	    span{font-size:13px;}	
+		.pic{
+			width:60%;
+			position:fixed;
+			margin-left:16%;
+			}
+
+        img{text-align:center;}			
+			.pic1{
+			      display:inline;
+				  visibility:hidden;
+				  
+				  
+		         }	
+        .img2{position:fixed;
+		         width:50%;
+		         top:80%;
+				 left:24%;
+				 }	
+}
+	/*For small Mobiles*/
+	
+@media only screen and (max-width: 450px){
+    html {
+    background: url(images/BG_MOB.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+	
+	.instructbox{background-color: rgba(0, 0, 0, 0.5); 
+			     border:2px solid red;
+			     border-radius:8px;
+				 width:85%;
+			     padding:10px;
+			     position:fixed;
+				 left:-22%;
+				 top:50%;
+			     bottom:20;
+			 }
+    .instructbox1{background-color: rgba(0, 0, 0, 0.5); 
+			 border:2px solid red;
+			 border-radius:20px;
+			 visibility:hidden;
+			 height:300px;
+			 }
+			 
+	
+			 p{color:white;
+			   font-family:verdana; 
+			   font-size:8px;
+			   padding:0px ;
+			   margin:5px;
+			   
+			   }
+			   
+	    span{font-size:10px;}	
+		.pic{
+			    position:fixed;
+		         width:80%;
+				 margin-left:15%;
+		         
+			}
+
+        		
+			.pic1{
+			      display:inline;
+				  visibility:hidden;
+				  
+				  
+		         }	
+        .img2{position:fixed;
+		         width:60%;
+		         top:78%;
+				 left:18%;
+				 }	
+}		
+@media only screen and (max-width: 700px) and (min-width: 600px){
+.img2{width:33%;
+		      padding:0px 10px;
+			  position:fixed;
+		      top:95%;
+		      left:34%;
+			  vertical-align:center;
+		      margin-top:20px;
+				
+             }
+}	
